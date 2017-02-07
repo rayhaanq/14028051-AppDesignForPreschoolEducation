@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		716AF0741E4A00EC005ED566 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716AF0731E4A00EC005ED566 /* AppDelegate.swift */; };
+		716AF0761E4A00EC005ED566 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716AF0751E4A00EC005ED566 /* ViewController.swift */; };
+		716AF0791E4A00EC005ED566 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 716AF0771E4A00EC005ED566 /* Main.storyboard */; };
+		716AF07B1E4A00ED005ED566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 716AF07A1E4A00ED005ED566 /* Assets.xcassets */; };
+		716AF07E1E4A00ED005ED566 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 716AF07C1E4A00ED005ED566 /* LaunchScreen.storyboard */; };
+		716AF0891E4A00ED005ED566 /* Rayhaan_PreSchoolAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716AF0881E4A00ED005ED566 /* Rayhaan_PreSchoolAppTests.swift */; };
+		716AF0941E4A00ED005ED566 /* Rayhaan_PreSchoolAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716AF0931E4A00ED005ED566 /* Rayhaan_PreSchoolAppUITests.swift */; };
+		716AF0A21E4A1A55005ED566 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 716AF0A11E4A1A55005ED566 /* images */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		716AF0851E4A00ED005ED566 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 716AF0681E4A00EC005ED566 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 716AF06F1E4A00EC005ED566;
+			remoteInfo = "Rayhaan-PreSchoolApp";
+		};
+		716AF0901E4A00ED005ED566 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 716AF0681E4A00EC005ED566 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 716AF06F1E4A00EC005ED566;
+			remoteInfo = "Rayhaan-PreSchoolApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		716AF0701E4A00EC005ED566 /* Rayhaan-PreSchoolApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rayhaan-PreSchoolApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		716AF0731E4A00EC005ED566 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		716AF0751E4A00EC005ED566 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		716AF0781E4A00EC005ED566 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		716AF07A1E4A00ED005ED566 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		716AF07D1E4A00ED005ED566 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		716AF07F1E4A00ED005ED566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		716AF0841E4A00ED005ED566 /* Rayhaan-PreSchoolAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rayhaan-PreSchoolAppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		716AF0881E4A00ED005ED566 /* Rayhaan_PreSchoolAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rayhaan_PreSchoolAppTests.swift; sourceTree = "<group>"; };
+		716AF08A1E4A00ED005ED566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		716AF08F1E4A00ED005ED566 /* Rayhaan-PreSchoolAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rayhaan-PreSchoolAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		716AF0931E4A00ED005ED566 /* Rayhaan_PreSchoolAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rayhaan_PreSchoolAppUITests.swift; sourceTree = "<group>"; };
+		716AF0951E4A00ED005ED566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		716AF0A11E4A1A55005ED566 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		716AF06D1E4A00EC005ED566 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		716AF0811E4A00ED005ED566 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		716AF08C1E4A00ED005ED566 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		716AF0671E4A00EC005ED566 = {
+			isa = PBXGroup;
+			children = (
+				716AF0721E4A00EC005ED566 /* Rayhaan-PreSchoolApp */,
+				716AF0871E4A00ED005ED566 /* Rayhaan-PreSchoolAppTests */,
+				716AF0921E4A00ED005ED566 /* Rayhaan-PreSchoolAppUITests */,
+				716AF0711E4A00EC005ED566 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		716AF0711E4A00EC005ED566 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				716AF0701E4A00EC005ED566 /* Rayhaan-PreSchoolApp.app */,
+				716AF0841E4A00ED005ED566 /* Rayhaan-PreSchoolAppTests.xctest */,
+				716AF08F1E4A00ED005ED566 /* Rayhaan-PreSchoolAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		716AF0721E4A00EC005ED566 /* Rayhaan-PreSchoolApp */ = {
+			isa = PBXGroup;
+			children = (
+				716AF0731E4A00EC005ED566 /* AppDelegate.swift */,
+				716AF0751E4A00EC005ED566 /* ViewController.swift */,
+				716AF0771E4A00EC005ED566 /* Main.storyboard */,
+				716AF07A1E4A00ED005ED566 /* Assets.xcassets */,
+				716AF07C1E4A00ED005ED566 /* LaunchScreen.storyboard */,
+				716AF07F1E4A00ED005ED566 /* Info.plist */,
+				716AF0A11E4A1A55005ED566 /* images */,
+			);
+			path = "Rayhaan-PreSchoolApp";
+			sourceTree = "<group>";
+		};
+		716AF0871E4A00ED005ED566 /* Rayhaan-PreSchoolAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				716AF0881E4A00ED005ED566 /* Rayhaan_PreSchoolAppTests.swift */,
+				716AF08A1E4A00ED005ED566 /* Info.plist */,
+			);
+			path = "Rayhaan-PreSchoolAppTests";
+			sourceTree = "<group>";
+		};
+		716AF0921E4A00ED005ED566 /* Rayhaan-PreSchoolAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				716AF0931E4A00ED005ED566 /* Rayhaan_PreSchoolAppUITests.swift */,
+				716AF0951E4A00ED005ED566 /* Info.plist */,
+			);
+			path = "Rayhaan-PreSchoolAppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		716AF06F1E4A00EC005ED566 /* Rayhaan-PreSchoolApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 716AF0981E4A00ED005ED566 /* Build configuration list for PBXNativeTarget "Rayhaan-PreSchoolApp" */;
+			buildPhases = (
+				716AF06C1E4A00EC005ED566 /* Sources */,
+				716AF06D1E4A00EC005ED566 /* Frameworks */,
+				716AF06E1E4A00EC005ED566 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rayhaan-PreSchoolApp";
+			productName = "Rayhaan-PreSchoolApp";
+			productReference = 716AF0701E4A00EC005ED566 /* Rayhaan-PreSchoolApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		716AF0831E4A00ED005ED566 /* Rayhaan-PreSchoolAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 716AF09B1E4A00ED005ED566 /* Build configuration list for PBXNativeTarget "Rayhaan-PreSchoolAppTests" */;
+			buildPhases = (
+				716AF0801E4A00ED005ED566 /* Sources */,
+				716AF0811E4A00ED005ED566 /* Frameworks */,
+				716AF0821E4A00ED005ED566 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				716AF0861E4A00ED005ED566 /* PBXTargetDependency */,
+			);
+			name = "Rayhaan-PreSchoolAppTests";
+			productName = "Rayhaan-PreSchoolAppTests";
+			productReference = 716AF0841E4A00ED005ED566 /* Rayhaan-PreSchoolAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		716AF08E1E4A00ED005ED566 /* Rayhaan-PreSchoolAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 716AF09E1E4A00ED005ED566 /* Build configuration list for PBXNativeTarget "Rayhaan-PreSchoolAppUITests" */;
+			buildPhases = (
+				716AF08B1E4A00ED005ED566 /* Sources */,
+				716AF08C1E4A00ED005ED566 /* Frameworks */,
+				716AF08D1E4A00ED005ED566 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				716AF0911E4A00ED005ED566 /* PBXTargetDependency */,
+			);
+			name = "Rayhaan-PreSchoolAppUITests";
+			productName = "Rayhaan-PreSchoolAppUITests";
+			productReference = 716AF08F1E4A00ED005ED566 /* Rayhaan-PreSchoolAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		716AF0681E4A00EC005ED566 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Rayhaan;
+				TargetAttributes = {
+					716AF06F1E4A00EC005ED566 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					716AF0831E4A00ED005ED566 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 716AF06F1E4A00EC005ED566;
+					};
+					716AF08E1E4A00ED005ED566 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 716AF06F1E4A00EC005ED566;
+					};
+				};
+			};
+			buildConfigurationList = 716AF06B1E4A00EC005ED566 /* Build configuration list for PBXProject "Rayhaan-PreSchoolApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 716AF0671E4A00EC005ED566;
+			productRefGroup = 716AF0711E4A00EC005ED566 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				716AF06F1E4A00EC005ED566 /* Rayhaan-PreSchoolApp */,
+				716AF0831E4A00ED005ED566 /* Rayhaan-PreSchoolAppTests */,
+				716AF08E1E4A00ED005ED566 /* Rayhaan-PreSchoolAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		716AF06E1E4A00EC005ED566 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				716AF0A21E4A1A55005ED566 /* images in Resources */,
+				716AF07E1E4A00ED005ED566 /* LaunchScreen.storyboard in Resources */,
+				716AF07B1E4A00ED005ED566 /* Assets.xcassets in Resources */,
+				716AF0791E4A00EC005ED566 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		716AF0821E4A00ED005ED566 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		716AF08D1E4A00ED005ED566 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		716AF06C1E4A00EC005ED566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				716AF0761E4A00EC005ED566 /* ViewController.swift in Sources */,
+				716AF0741E4A00EC005ED566 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		716AF0801E4A00ED005ED566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				716AF0891E4A00ED005ED566 /* Rayhaan_PreSchoolAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		716AF08B1E4A00ED005ED566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				716AF0941E4A00ED005ED566 /* Rayhaan_PreSchoolAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		716AF0861E4A00ED005ED566 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 716AF06F1E4A00EC005ED566 /* Rayhaan-PreSchoolApp */;
+			targetProxy = 716AF0851E4A00ED005ED566 /* PBXContainerItemProxy */;
+		};
+		716AF0911E4A00ED005ED566 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 716AF06F1E4A00EC005ED566 /* Rayhaan-PreSchoolApp */;
+			targetProxy = 716AF0901E4A00ED005ED566 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		716AF0771E4A00EC005ED566 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				716AF0781E4A00EC005ED566 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		716AF07C1E4A00ED005ED566 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				716AF07D1E4A00ED005ED566 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		716AF0961E4A00ED005ED566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		716AF0971E4A00ED005ED566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		716AF0991E4A00ED005ED566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Rayhaan-PreSchoolApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mycompany.Rayhaan-PreSchoolApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		716AF09A1E4A00ED005ED566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Rayhaan-PreSchoolApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mycompany.Rayhaan-PreSchoolApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		716AF09C1E4A00ED005ED566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Rayhaan-PreSchoolAppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mycompany.Rayhaan-PreSchoolAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rayhaan-PreSchoolApp.app/Rayhaan-PreSchoolApp";
+			};
+			name = Debug;
+		};
+		716AF09D1E4A00ED005ED566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Rayhaan-PreSchoolAppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mycompany.Rayhaan-PreSchoolAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rayhaan-PreSchoolApp.app/Rayhaan-PreSchoolApp";
+			};
+			name = Release;
+		};
+		716AF09F1E4A00ED005ED566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Rayhaan-PreSchoolAppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mycompany.Rayhaan-PreSchoolAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Rayhaan-PreSchoolApp";
+			};
+			name = Debug;
+		};
+		716AF0A01E4A00ED005ED566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Rayhaan-PreSchoolAppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mycompany.Rayhaan-PreSchoolAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Rayhaan-PreSchoolApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		716AF06B1E4A00EC005ED566 /* Build configuration list for PBXProject "Rayhaan-PreSchoolApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				716AF0961E4A00ED005ED566 /* Debug */,
+				716AF0971E4A00ED005ED566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		716AF0981E4A00ED005ED566 /* Build configuration list for PBXNativeTarget "Rayhaan-PreSchoolApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				716AF0991E4A00ED005ED566 /* Debug */,
+				716AF09A1E4A00ED005ED566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		716AF09B1E4A00ED005ED566 /* Build configuration list for PBXNativeTarget "Rayhaan-PreSchoolAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				716AF09C1E4A00ED005ED566 /* Debug */,
+				716AF09D1E4A00ED005ED566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		716AF09E1E4A00ED005ED566 /* Build configuration list for PBXNativeTarget "Rayhaan-PreSchoolAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				716AF09F1E4A00ED005ED566 /* Debug */,
+				716AF0A01E4A00ED005ED566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 716AF0681E4A00EC005ED566 /* Project object */;
+}
