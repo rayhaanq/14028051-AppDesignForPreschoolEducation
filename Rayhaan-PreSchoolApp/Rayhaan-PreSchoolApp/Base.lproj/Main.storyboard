@@ -14,13 +14,69 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kiD-Jj-Yy0">
+                                <rect key="frame" x="66" y="20" width="50" height="50"/>
+                                <state key="normal" title="0" image="number0"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ydg-t5-Wgn">
+                                <rect key="frame" x="124" y="20" width="50" height="50"/>
+                                <state key="normal" title="1" image="number1"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4qi-7f-kD2">
+                                <rect key="frame" x="182" y="20" width="50" height="50"/>
+                                <state key="normal" title="2" image="number2"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Z7-Kv-Ano">
+                                <rect key="frame" x="240" y="20" width="50" height="50"/>
+                                <state key="normal" title="3" image="number3"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AuV-Dv-xs5">
+                                <rect key="frame" x="66" y="78" width="50" height="50"/>
+                                <state key="normal" title="5" image="number5"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qo0-jI-8Ry">
+                                <rect key="frame" x="124" y="78" width="50" height="50"/>
+                                <state key="normal" title="6" image="number6"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hPu-cW-z8h">
+                                <rect key="frame" x="182" y="78" width="50" height="50"/>
+                                <state key="normal" title="7" image="number7"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sOv-0c-akm">
+                                <rect key="frame" x="240" y="78" width="50" height="50"/>
+                                <state key="normal" title="8" image="number8"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vSS-Xb-bH1">
+                                <rect key="frame" x="298" y="78" width="50" height="50"/>
+                                <state key="normal" title="9" image="number9"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yVE-Oi-tdx">
+                                <rect key="frame" x="298" y="20" width="50" height="50"/>
+                                <state key="normal" title="4" image="number4"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="301" y="381"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="number0" width="256" height="256"/>
+        <image name="number1" width="256" height="256"/>
+        <image name="number2" width="256" height="256"/>
+        <image name="number3" width="256" height="256"/>
+        <image name="number4" width="256" height="256"/>
+        <image name="number5" width="256" height="256"/>
+        <image name="number6" width="256" height="256"/>
+        <image name="number7" width="256" height="256"/>
+        <image name="number8" width="256" height="256"/>
+        <image name="number9" width="256" height="256"/>
+    </resources>
 </document>

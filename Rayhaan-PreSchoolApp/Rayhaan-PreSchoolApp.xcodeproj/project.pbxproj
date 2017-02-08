@@ -14,7 +14,6 @@
 		716AF07E1E4A00ED005ED566 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 716AF07C1E4A00ED005ED566 /* LaunchScreen.storyboard */; };
 		716AF0891E4A00ED005ED566 /* Rayhaan_PreSchoolAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716AF0881E4A00ED005ED566 /* Rayhaan_PreSchoolAppTests.swift */; };
 		716AF0941E4A00ED005ED566 /* Rayhaan_PreSchoolAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716AF0931E4A00ED005ED566 /* Rayhaan_PreSchoolAppUITests.swift */; };
-		716AF0A21E4A1A55005ED566 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 716AF0A11E4A1A55005ED566 /* images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +47,6 @@
 		716AF08F1E4A00ED005ED566 /* Rayhaan-PreSchoolAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rayhaan-PreSchoolAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		716AF0931E4A00ED005ED566 /* Rayhaan_PreSchoolAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rayhaan_PreSchoolAppUITests.swift; sourceTree = "<group>"; };
 		716AF0951E4A00ED005ED566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		716AF0A11E4A1A55005ED566 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +103,6 @@
 				716AF07A1E4A00ED005ED566 /* Assets.xcassets */,
 				716AF07C1E4A00ED005ED566 /* LaunchScreen.storyboard */,
 				716AF07F1E4A00ED005ED566 /* Info.plist */,
-				716AF0A11E4A1A55005ED566 /* images */,
 			);
 			path = "Rayhaan-PreSchoolApp";
 			sourceTree = "<group>";
@@ -232,7 +229,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				716AF0A21E4A1A55005ED566 /* images in Resources */,
 				716AF07E1E4A00ED005ED566 /* LaunchScreen.storyboard in Resources */,
 				716AF07B1E4A00ED005ED566 /* Assets.xcassets in Resources */,
 				716AF0791E4A00EC005ED566 /* Main.storyboard in Resources */,
