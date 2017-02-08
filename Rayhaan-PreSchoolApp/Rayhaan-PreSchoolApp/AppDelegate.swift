@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Rayhaan-PreSchoolApp
 //
-//  Created by Next Man on 07/02/2017.
+//  Created by Rayhaan Quazi on 07/02/2017.
 //  Copyright © 2017 Rayhaan. All rights reserved.
 //
 

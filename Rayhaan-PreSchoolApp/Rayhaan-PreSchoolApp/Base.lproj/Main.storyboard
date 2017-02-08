@@ -33,6 +33,10 @@
                                 <rect key="frame" x="240" y="20" width="50" height="50"/>
                                 <state key="normal" title="3" image="number3"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yVE-Oi-tdx">
+                                <rect key="frame" x="298" y="20" width="50" height="50"/>
+                                <state key="normal" title="4" image="number4"/>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AuV-Dv-xs5">
                                 <rect key="frame" x="66" y="78" width="50" height="50"/>
                                 <state key="normal" title="5" image="number5"/>
@@ -53,14 +57,49 @@
                                 <rect key="frame" x="298" y="78" width="50" height="50"/>
                                 <state key="normal" title="9" image="number9"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yVE-Oi-tdx">
-                                <rect key="frame" x="298" y="20" width="50" height="50"/>
-                                <state key="normal" title="4" image="number4"/>
-                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plate" translatesAutoresizingMaskIntoConstraints="NO" id="dhY-hf-sez">
+                                <rect key="frame" x="44" y="525" width="326" height="174"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="DDp-ay-cFQ" customClass="DraggedImageView" customModule="Rayhaan_PreSchoolApp" customModuleProvider="target">
+                                <rect key="frame" x="100" y="579" width="50" height="50"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="CdC-dd-QnE" customClass="DraggedImageView" customModule="Rayhaan_PreSchoolApp" customModuleProvider="target">
+                                <rect key="frame" x="153" y="561" width="50" height="50"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="LNo-O8-VA3" customClass="DraggedImageView" customModule="Rayhaan_PreSchoolApp" customModuleProvider="target">
+                                <rect key="frame" x="250" y="567" width="50" height="50"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="OyC-Ju-uUC" customClass="DraggedImageView" customModule="Rayhaan_PreSchoolApp" customModuleProvider="target">
+                                <rect key="frame" x="182" y="561" width="50" height="50"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="U6w-g1-d5m" customClass="DraggedImageView" customModule="Rayhaan_PreSchoolApp" customModuleProvider="target">
+                                <rect key="frame" x="250" y="587" width="50" height="50"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="lFQ-ue-MK2" customClass="DraggedImageView" customModule="Rayhaan_PreSchoolApp" customModuleProvider="target">
+                                <rect key="frame" x="132" y="567" width="50" height="50"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="JnH-od-RAx" customClass="DraggedImageView" customModule="Rayhaan_PreSchoolApp" customModuleProvider="target">
+                                <rect key="frame" x="219" y="567" width="50" height="50"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="CY1-q6-e3t" customClass="DraggedImageView" customModule="Rayhaan_PreSchoolApp" customModuleProvider="target">
+                                <rect key="frame" x="211" y="587" width="50" height="50"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="67y-Aj-ceU" customClass="DraggedImageView" customModule="Rayhaan_PreSchoolApp" customModuleProvider="target">
+                                <rect key="frame" x="153" y="587" width="50" height="50"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4 + 4 = ?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aEM-de-H0X">
+                                <rect key="frame" x="67" y="172" width="280" height="79"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="66"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.88902102229024527" green="0.88776891755975784" blue="0.90964006839842937" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="quizQuestion" destination="aEM-de-H0X" id="Xe9-Oa-M91"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -68,6 +107,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="apple" width="256" height="256"/>
         <image name="number0" width="256" height="256"/>
         <image name="number1" width="256" height="256"/>
         <image name="number2" width="256" height="256"/>
@@ -78,5 +118,6 @@
         <image name="number7" width="256" height="256"/>
         <image name="number8" width="256" height="256"/>
         <image name="number9" width="256" height="256"/>
+        <image name="plate" width="1600" height="1200"/>
     </resources>
 </document>

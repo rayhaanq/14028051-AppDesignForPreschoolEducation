@@ -14,6 +14,7 @@
 		716AF07E1E4A00ED005ED566 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 716AF07C1E4A00ED005ED566 /* LaunchScreen.storyboard */; };
 		716AF0891E4A00ED005ED566 /* Rayhaan_PreSchoolAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716AF0881E4A00ED005ED566 /* Rayhaan_PreSchoolAppTests.swift */; };
 		716AF0941E4A00ED005ED566 /* Rayhaan_PreSchoolAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716AF0931E4A00ED005ED566 /* Rayhaan_PreSchoolAppUITests.swift */; };
+		718F60BD1E4B5717000B5E78 /* DraggedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718F60BC1E4B5717000B5E78 /* DraggedImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		716AF08F1E4A00ED005ED566 /* Rayhaan-PreSchoolAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rayhaan-PreSchoolAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		716AF0931E4A00ED005ED566 /* Rayhaan_PreSchoolAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rayhaan_PreSchoolAppUITests.swift; sourceTree = "<group>"; };
 		716AF0951E4A00ED005ED566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		718F60BC1E4B5717000B5E78 /* DraggedImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggedImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				716AF0731E4A00EC005ED566 /* AppDelegate.swift */,
 				716AF0751E4A00EC005ED566 /* ViewController.swift */,
+				718F60BC1E4B5717000B5E78 /* DraggedImageView.swift */,
 				716AF0771E4A00EC005ED566 /* Main.storyboard */,
 				716AF07A1E4A00ED005ED566 /* Assets.xcassets */,
 				716AF07C1E4A00ED005ED566 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				716AF0761E4A00EC005ED566 /* ViewController.swift in Sources */,
+				718F60BD1E4B5717000B5E78 /* DraggedImageView.swift in Sources */,
 				716AF0741E4A00EC005ED566 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +488,7 @@
 				716AF09A1E4A00ED005ED566 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		716AF09B1E4A00ED005ED566 /* Build configuration list for PBXNativeTarget "Rayhaan-PreSchoolAppTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				716AF09D1E4A00ED005ED566 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		716AF09E1E4A00ED005ED566 /* Build configuration list for PBXNativeTarget "Rayhaan-PreSchoolAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				716AF0A01E4A00ED005ED566 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
