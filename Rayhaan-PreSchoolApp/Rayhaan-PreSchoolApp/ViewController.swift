@@ -7,21 +7,60 @@
 //
 
 import UIKit
-import Foundation
 
 class ViewController: UIViewController {
     
-    var num1 = arc4random_uniform(5).description
-    var num2 = arc4random_uniform(5).description
+    var num1 : Int?
+    var num2 : Int?
+    var ans : Int?
+    var questionString : String?
+    
     
     @IBOutlet weak var quizQuestion: UILabel!
+    @IBOutlet weak var questionMark: UILabel!
+    @IBOutlet weak var lowerView: UIView!
+    
+    @IBOutlet weak var test: UILabel!
+    @IBAction func buttonNumber(sender: UIButton) {
+        if Int(sender.titleLabel!.text!) == ans! {
+            test.text = "Correct"
+            self.performSegueWithIdentifier("correctAnswer", sender: nil)
+            
+        } else {
+            test.text = "Wrong"
+            wrongAnswer()
+            
+        }
+        
+    }
+    
+    func wrongAnswer(){
+        questionMark.textColor = UIColor.redColor()
+        
+        UIView.animateWithDuration(0.25, delay: 0, options: [], animations: {
+            self.questionMark.alpha = 0.1
+            }, completion:{finished in
+                if (finished) {
+                    UIView.animateWithDuration(0.25, delay: 0, options: [], animations: {
+                        self.questionMark.alpha = 1
+                        }, completion: nil)
+                }
+    
+        })
+    }
     
     
+    func genNumbers(){
+        num1 = Int(arc4random_uniform(5))
+        num2 = Int(arc4random_uniform(5))
+        ans = num1! + num2!
+    }
     
-    
-    func setQuestion() -> String {
-        let question = num1 + " + " + num2 + " = ?"
-        return question
+    func genQuestion() -> String {
+        
+        questionString = num1!.description + " + " + num2!.description + " ="
+        
+        return questionString!
     }
     
     
@@ -29,7 +68,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        quizQuestion.text = setQuestion()
+        
+        genNumbers()
+        quizQuestion.text = genQuestion()
         
     }
 

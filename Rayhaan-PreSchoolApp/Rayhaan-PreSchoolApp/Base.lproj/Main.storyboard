@@ -18,79 +18,127 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kiD-Jj-Yy0">
-                                <rect key="frame" x="66" y="20" width="50" height="50"/>
+                                <rect key="frame" x="26" y="28" width="70" height="70"/>
                                 <state key="normal" title="0" image="number0"/>
+                                <connections>
+                                    <action selector="buttonNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B8b-uZ-gS2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ydg-t5-Wgn">
-                                <rect key="frame" x="124" y="20" width="50" height="50"/>
+                                <rect key="frame" x="98" y="28" width="70" height="70"/>
                                 <state key="normal" title="1" image="number1"/>
+                                <connections>
+                                    <action selector="buttonNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8s7-KY-vbd"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4qi-7f-kD2">
-                                <rect key="frame" x="182" y="20" width="50" height="50"/>
+                                <rect key="frame" x="172" y="28" width="70" height="70"/>
                                 <state key="normal" title="2" image="number2"/>
+                                <connections>
+                                    <action selector="buttonNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YQv-rT-zQ8"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Z7-Kv-Ano">
-                                <rect key="frame" x="240" y="20" width="50" height="50"/>
+                                <rect key="frame" x="246" y="28" width="70" height="70"/>
                                 <state key="normal" title="3" image="number3"/>
+                                <connections>
+                                    <action selector="buttonNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GzS-Gc-pxH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yVE-Oi-tdx">
-                                <rect key="frame" x="298" y="20" width="50" height="50"/>
+                                <rect key="frame" x="320" y="28" width="70" height="70"/>
                                 <state key="normal" title="4" image="number4"/>
+                                <connections>
+                                    <action selector="buttonNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Oia-sn-FQv"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AuV-Dv-xs5">
-                                <rect key="frame" x="66" y="78" width="50" height="50"/>
+                                <rect key="frame" x="26" y="106" width="70" height="70"/>
                                 <state key="normal" title="5" image="number5"/>
+                                <connections>
+                                    <action selector="buttonNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="92v-JY-XLm"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qo0-jI-8Ry">
-                                <rect key="frame" x="124" y="78" width="50" height="50"/>
+                                <rect key="frame" x="98" y="104" width="70" height="70"/>
                                 <state key="normal" title="6" image="number6"/>
+                                <connections>
+                                    <action selector="buttonNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="50a-1Y-Cbk"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hPu-cW-z8h">
-                                <rect key="frame" x="182" y="78" width="50" height="50"/>
+                                <rect key="frame" x="172" y="106" width="70" height="70"/>
                                 <state key="normal" title="7" image="number7"/>
+                                <connections>
+                                    <action selector="buttonNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Oj-wX-wua"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sOv-0c-akm">
-                                <rect key="frame" x="240" y="78" width="50" height="50"/>
+                                <rect key="frame" x="246" y="104" width="70" height="70"/>
                                 <state key="normal" title="8" image="number8"/>
+                                <connections>
+                                    <action selector="buttonNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AJY-Ke-iQ6"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vSS-Xb-bH1">
-                                <rect key="frame" x="298" y="78" width="50" height="50"/>
-                                <state key="normal" title="9" image="number9"/>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plate" translatesAutoresizingMaskIntoConstraints="NO" id="dhY-hf-sez">
-                                <rect key="frame" x="44" y="525" width="326" height="174"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="DDp-ay-cFQ" customClass="DraggedImageView" customModule="Rayhaan_PreSchoolApp" customModuleProvider="target">
-                                <rect key="frame" x="100" y="579" width="50" height="50"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="CdC-dd-QnE" customClass="DraggedImageView" customModule="Rayhaan_PreSchoolApp" customModuleProvider="target">
-                                <rect key="frame" x="153" y="561" width="50" height="50"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="LNo-O8-VA3" customClass="DraggedImageView" customModule="Rayhaan_PreSchoolApp" customModuleProvider="target">
-                                <rect key="frame" x="250" y="567" width="50" height="50"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="OyC-Ju-uUC" customClass="DraggedImageView" customModule="Rayhaan_PreSchoolApp" customModuleProvider="target">
-                                <rect key="frame" x="182" y="561" width="50" height="50"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="U6w-g1-d5m" customClass="DraggedImageView" customModule="Rayhaan_PreSchoolApp" customModuleProvider="target">
-                                <rect key="frame" x="250" y="587" width="50" height="50"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="lFQ-ue-MK2" customClass="DraggedImageView" customModule="Rayhaan_PreSchoolApp" customModuleProvider="target">
-                                <rect key="frame" x="132" y="567" width="50" height="50"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="JnH-od-RAx" customClass="DraggedImageView" customModule="Rayhaan_PreSchoolApp" customModuleProvider="target">
-                                <rect key="frame" x="219" y="567" width="50" height="50"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="CY1-q6-e3t" customClass="DraggedImageView" customModule="Rayhaan_PreSchoolApp" customModuleProvider="target">
-                                <rect key="frame" x="211" y="587" width="50" height="50"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="67y-Aj-ceU" customClass="DraggedImageView" customModule="Rayhaan_PreSchoolApp" customModuleProvider="target">
-                                <rect key="frame" x="153" y="587" width="50" height="50"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4 + 4 = ?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aEM-de-H0X">
-                                <rect key="frame" x="67" y="172" width="280" height="79"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="66"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4 + 4 =" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aEM-de-H0X">
+                                <rect key="frame" x="6" y="159" width="336" height="120"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R7g-PY-xEz">
+                                <rect key="frame" x="0.0" y="269" width="414" height="467"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plate" translatesAutoresizingMaskIntoConstraints="NO" id="dhY-hf-sez">
+                                        <rect key="frame" x="44" y="229" width="326" height="174"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="DDp-ay-cFQ" customClass="DraggedImageView" customModule="Rayhaan_PreSchoolApp" customModuleProvider="target">
+                                        <rect key="frame" x="202" y="269" width="50" height="50"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="CdC-dd-QnE" customClass="DraggedImageView" customModule="Rayhaan_PreSchoolApp" customModuleProvider="target">
+                                        <rect key="frame" x="160" y="269" width="50" height="50"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="LNo-O8-VA3" customClass="DraggedImageView" customModule="Rayhaan_PreSchoolApp" customModuleProvider="target">
+                                        <rect key="frame" x="91" y="280" width="50" height="50"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="OyC-Ju-uUC" customClass="DraggedImageView" customModule="Rayhaan_PreSchoolApp" customModuleProvider="target">
+                                        <rect key="frame" x="239" y="269" width="50" height="50"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="lFQ-ue-MK2" customClass="DraggedImageView" customModule="Rayhaan_PreSchoolApp" customModuleProvider="target">
+                                        <rect key="frame" x="191" y="291" width="50" height="50"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="JnH-od-RAx" customClass="DraggedImageView" customModule="Rayhaan_PreSchoolApp" customModuleProvider="target">
+                                        <rect key="frame" x="231" y="291" width="50" height="50"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="CY1-q6-e3t" customClass="DraggedImageView" customModule="Rayhaan_PreSchoolApp" customModuleProvider="target">
+                                        <rect key="frame" x="273" y="280" width="50" height="50"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="67y-Aj-ceU" customClass="DraggedImageView" customModule="Rayhaan_PreSchoolApp" customModuleProvider="target">
+                                        <rect key="frame" x="121" y="291" width="50" height="50"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="U6w-g1-d5m" customClass="DraggedImageView" customModule="Rayhaan_PreSchoolApp" customModuleProvider="target">
+                                        <rect key="frame" x="149" y="286" width="50" height="50"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VQb-lg-292">
+                                <rect key="frame" x="80" y="177" width="134" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vSS-Xb-bH1">
+                                <rect key="frame" x="320" y="104" width="70" height="70"/>
+                                <state key="normal" title="9" image="number9"/>
+                                <connections>
+                                    <action selector="buttonNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hTk-1R-tdv"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yZX-xn-CKU">
+                                <rect key="frame" x="350" y="177" width="52" height="83"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -98,12 +146,43 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
+                        <outlet property="lowerView" destination="R7g-PY-xEz" id="0mx-ok-gzj"/>
+                        <outlet property="questionMark" destination="yZX-xn-CKU" id="auC-1b-LF8"/>
                         <outlet property="quizQuestion" destination="aEM-de-H0X" id="Xe9-Oa-M91"/>
+                        <outlet property="test" destination="VQb-lg-292" id="vYt-kE-j1n"/>
+                        <segue destination="FXJ-6u-h7E" kind="show" identifier="correctAnswer" id="c1N-C6-GHU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="301" y="381"/>
+        </scene>
+        <!--Correct View Controller-->
+        <scene sceneID="1CZ-cm-Oy2">
+            <objects>
+                <viewController storyboardIdentifier="CorrectView" id="FXJ-6u-h7E" customClass="CorrectViewController" customModule="Rayhaan_PreSchoolApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3L1-18-jSa"/>
+                        <viewControllerLayoutGuide type="bottom" id="XOj-G6-c08"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nXw-10-4XS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Works" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qfN-Nw-jou">
+                                <rect key="frame" x="134" y="294" width="183" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vy1-2R-7Lx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="785" y="387"/>
         </scene>
     </scenes>
     <resources>
