@@ -24,10 +24,14 @@ class ViewController: UIViewController {
     @IBAction func buttonNumber(sender: UIButton) {
         if Int(sender.titleLabel!.text!) == ans! {
             test.text = "Correct"
-            self.performSegueWithIdentifier("correctAnswer", sender: nil)
+            self.performSegueWithIdentifier("showCorrectAnswer", sender: nil)
+            genNumbers()
+            quizQuestion.text = genQuestion()
+            questionMark.textColor = UIColor.blackColor()
+            
             
         } else {
-            test.text = "Wrong"
+            test.text = String(Double(Int(arc4random_uniform(15))+5)/10)
             wrongAnswer()
             
         }
@@ -57,8 +61,8 @@ class ViewController: UIViewController {
     }
     
     func genQuestion() -> String {
-        
-        questionString = num1!.description + " + " + num2!.description + " ="
+        genNumbers()
+        questionString = num1!.description + " + " + num2!.description + " = "
         
         return questionString!
     }
@@ -77,6 +81,16 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "showCorrectView"{
+            
+        }
+        let correctView : CorrectViewController = segue.destinationViewController as! CorrectViewController
+        
+        correctView.answerLabelText = quizQuestion.text! + String(ans!)
+        
     }
 
 
