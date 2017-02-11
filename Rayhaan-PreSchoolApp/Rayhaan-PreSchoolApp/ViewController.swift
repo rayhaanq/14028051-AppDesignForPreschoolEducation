@@ -20,18 +20,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var questionMark: UILabel!
     @IBOutlet weak var lowerView: UIView!
     
-    @IBOutlet weak var test: UILabel!
     @IBAction func buttonNumber(sender: UIButton) {
         if Int(sender.titleLabel!.text!) == ans! {
-            test.text = "Correct"
+            dismissViewControllerAnimated(false, completion: nil)
             self.performSegueWithIdentifier("showCorrectAnswer", sender: nil)
-            genNumbers()
-            quizQuestion.text = genQuestion()
-            questionMark.textColor = UIColor.blackColor()
             
+            self.loadView()
             
         } else {
-            test.text = String(Double(Int(arc4random_uniform(15))+5)/10)
             wrongAnswer()
             
         }
@@ -73,9 +69,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        genNumbers()
         quizQuestion.text = genQuestion()
         
+    }
+    
+    override func viewDidDisappear(animated: Bool) {
+        super.viewDidDisappear(false)
+        quizQuestion.text = genQuestion()
     }
 
     override func didReceiveMemoryWarning() {
