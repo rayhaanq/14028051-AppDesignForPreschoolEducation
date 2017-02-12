@@ -15,17 +15,20 @@ class ViewController: UIViewController {
     var ans : Int?
     var questionString : String?
     
+    @IBOutlet weak var topView: UIView!
+    
     
     @IBOutlet weak var quizQuestion: UILabel!
     @IBOutlet weak var questionMark: UILabel!
     @IBOutlet weak var lowerView: UIView!
     
+    @IBOutlet weak var upperView: UIView!
+    
+    
     @IBAction func buttonNumber(sender: UIButton) {
         if Int(sender.titleLabel!.text!) == ans! {
-            dismissViewControllerAnimated(false, completion: nil)
             self.performSegueWithIdentifier("showCorrectAnswer", sender: nil)
             
-            self.loadView()
             
         } else {
             wrongAnswer()
@@ -76,6 +79,9 @@ class ViewController: UIViewController {
     override func viewDidDisappear(animated: Bool) {
         super.viewDidDisappear(false)
         quizQuestion.text = genQuestion()
+        lowerView.setNeedsLayout()
+        questionMark.textColor = UIColor.blackColor()
+        
     }
 
     override func didReceiveMemoryWarning() {
